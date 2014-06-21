@@ -15,14 +15,18 @@ git config --global user.email "coreyhaines@gmail.com"
 echo "installing user apps"
 brew cask install google-chrome
 brew cask install steam
-
-echo "installing productivity tools"
 brew cask install sizeup
 open /Users/coreyhaines/Applications/SizeUp.app
 brew cask install alfred
 open /Users/coreyhaines/Applications/Alfred\ 2.app
 brew cask install caffeine
 open /Users/coreyhaines/Applications/Caffeine.app
+brew cask install dropbox
+open /Users/coreyhaines/Applications/Dropbox.app
+echo "Make sure to set up what dropbox folders to selectively sync, so you can get 1Password vault faster"
+brew cask install onepassword
+
+# brew cask install macvim # appears to not work in 10.10
 
 echo "installing programming tools"
 brew cask install virtualbox
@@ -31,3 +35,7 @@ brew cask install vagrant
 echo "cleaning up"
 brew cask cleanup
 brew cleanup
+
+echo "Machine is mostly set up"
+echo "Still need to install the following"
+echo "MacVim"
