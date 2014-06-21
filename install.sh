@@ -18,8 +18,11 @@ brew cask install steam
 
 echo "installing productivity tools"
 brew cask install sizeup
+open /Users/coreyhaines/Applications/SizeUp.app
 brew cask install alfred
+open /Users/coreyhaines/Applications/Alfred\ 2.app
 brew cask install caffeine
+open /Users/coreyhaines/Applications/Caffeine.app
 
 echo "installing programming tools"
 brew cask install virtualbox
